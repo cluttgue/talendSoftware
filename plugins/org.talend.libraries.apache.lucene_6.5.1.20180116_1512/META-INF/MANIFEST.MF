@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.apache.lucene
+Archiver-Version: Plexus Archiver
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Export-Package: org.apache.lucene,org.apache.lucene.analysis,org.apach
+ e.lucene.analysis.standard,org.apache.lucene.analysis.tokenattributes
+ ,org.apache.lucene.document,org.apache.lucene.index,org.apache.lucene
+ .messages,org.apache.lucene.queryParser,org.apache.lucene.search,org.
+ apache.lucene.search.function,org.apache.lucene.search.payloads,org.a
+ pache.lucene.search.spans,org.apache.lucene.store,org.apache.lucene.u
+ til,org.apache.lucene.util.cache
+Bundle-Name: Lucene plug-in
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-ClassPath: lib/lucene-core-3.0.3.jar,.
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

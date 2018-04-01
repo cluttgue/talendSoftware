@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.guava
+Export-Package: com.google.common.annotations,com.google.common.base,c
+ om.google.common.cache,com.google.common.collect,com.google.common.es
+ cape,com.google.common.eventbus,com.google.common.hash,com.google.com
+ mon.html,com.google.common.io,com.google.common.math,com.google.commo
+ n.net,com.google.common.primitives,com.google.common.reflect,com.goog
+ le.common.util.concurrent,com.google.common.xml
+Bundle-Name: Guava
+Bundle-Version: 6.5.1.20180116_1512
+Archiver-Version: Plexus Archiver
+Bundle-ClassPath: lib/guava-18.0.jar
+Built-By: 
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

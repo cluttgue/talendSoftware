@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.jdbc.ingres;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Export-Package: com.ingres.gcf.dam,com.ingres.gcf.jdbc,com.ingres.gcf.
+ util,com.ingres.jdbc
+Bundle-Name: Ingres Plug-in
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-ClassPath: lib/iijdbc.jar,.
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.hadoop.mapr.5.0.0;singleton:
+ =true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.talend.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Bundle-Name: mapr500
+Bundle-Version: 6.5.1.20180116_1512
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

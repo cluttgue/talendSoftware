@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.designer.esb.components.rs.consumer;si
+ ngleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.ui
+ .workbench,org.talend.core,org.talend.designer.codegen
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-Localization: plugin
+Bundle-Activator: org.talend.designer.esb.components.rs.consumer.Activ
+ ator
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.tos.components.feature"
+      label="Components-feature"
+      version="6.5.1.20180116_1512">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.talend.esb.tooling.ws.consumer.feature"
+         version="6.5.1.20180116_1512"/>
+
+   <plugin
+         id="org.talend.designer.components.localprovider"
+         download-size="66733"
+         install-size="96227"
+         version="6.5.1.20180116_1512"/>
+
+   <plugin
+         id="org.talend.designer.mapper"
+         download-size="667"
+         install-size="1415"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.dbmap"
+         download-size="483"
+         install-size="1021"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.abstractmap"
+         download-size="43"
+         install-size="79"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.fileoutputxml"
+         download-size="105"
+         install-size="223"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.scd"
+         download-size="143"
+         install-size="285"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.filemultischemas"
+         download-size="146"
+         install-size="294"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.spss"
+         download-size="58"
+         install-size="139"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.abstractmap.nl"
+         download-size="5"
+         install-size="11"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.rowgenerator"
+         download-size="133"
+         install-size="295"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.alfrescooutput"
+         download-size="33"
+         install-size="66"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.alfrescooutput.nl"
+         download-size="11"
+         install-size="31"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.dbmap.nl"
+         download-size="31"
+         install-size="105"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.fileoutputxml.nl"
+         download-size="14"
+         install-size="39"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.scd.nl"
+         download-size="9"
+         install-size="11"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.mapper.nl"
+         download-size="38"
+         install-size="137"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.rowgenerator.nl"
+         download-size="18"
+         install-size="52"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.hl7"
+         download-size="197"
+         install-size="420"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.hl7.nl"
+         download-size="5"
+         install-size="4"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.expressionbuilder"
+         download-size="127"
+         install-size="254"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.expressionbuilder.nl"
+         download-size="10"
+         install-size="23"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.gefabstractmap"
+         download-size="237"
+         install-size="407"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.xmlmap"
+         download-size="562"
+         install-size="1202"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="javax.wsdl"
+         download-size="164"
+         install-size="319"
+         version="1.6.2.v201012040545"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.webservice"
+         download-size="1958"
+         install-size="3295"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.webservice.nl"
+         download-size="6"
+         install-size="5"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.components.exchange"
+         download-size="528"
+         install-size="867"
+         version="6.5.1.20180116_1512"/>
+
+   <plugin
+         id="org.talend.designer.components.exchange.nl"
+         download-size="17"
+         install-size="47"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.xmlmap.nl"
+         download-size="6"
+         install-size="11"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.ui"
+         download-size="486"
+         install-size="990"
+         version="4.0.100.v20140401-0608"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.libraries.csv"
+         download-size="25"
+         install-size="27"
+         version="6.5.1.20180116_1512"/>
+
+   <plugin
+         id="org.talend.designer.gefabstractmap.nl"
+         download-size="0"
+         install-size="0"
+         version="6.5.1.20180116_1512"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="biz.aQute.bnd.annotation"
+         download-size="60"
+         install-size="86"
+         version="2.4.0.201411031537"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.api"
+         download-size="555"
+         install-size="708"
+         version="0.19.9"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.api.service.osgi"
+         download-size="23"
+         install-size="50"
+         version="0.19.9"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.common"
+         download-size="86"
+         install-size="162"
+         version="0.19.9"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.common-oauth"
+         download-size="1103"
+         install-size="1211"
+         version="0.19.9"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.repository.generic"
+         download-size="153"
+         install-size="348"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.core.generic"
+         download-size="188"
+         install-size="432"
+         version="6.5.1.20180116_1512"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.salesforce.definition"
+         download-size="2737"
+         install-size="3232"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.splunk"
+         download-size="415"
+         install-size="493"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.jira"
+         download-size="1955"
+         install-size="2291"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.snowflake"
+         download-size="17026"
+         install-size="30461"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.azurestorage"
+         download-size="1230"
+         install-size="1556"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.netsuite"
+         download-size="71"
+         install-size="162"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.marketo"
+         download-size="507"
+         install-size="667"
+         version="0.19.9"
+         unpack="false"/>
+
+   <plugin
+         id="joda-time"
+         download-size="607"
+         install-size="1044"
+         version="2.8.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.azurestorage"
+         download-size="966"
+         install-size="1842"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.jira"
+         download-size="317"
+         install-size="539"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.marketo"
+         download-size="462"
+         install-size="890"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.salesforce"
+         download-size="1932"
+         install-size="3263"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.snowflake"
+         download-size="194"
+         install-size="435"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.splunk"
+         download-size="14"
+         install-size="54"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.filedelimited"
+         download-size="701"
+         install-size="1817"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.filterrow"
+         download-size="607"
+         install-size="1604"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.help.jdbc"
+         download-size="1123"
+         install-size="2588"
+         version="6.5.1.20180115_1708"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.mdm;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: javax.wsdl
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Eclipse-ExtensibleAPI: true
+Export-Package: org.talend.mdm.webservice
+Bundle-Name: Mdm
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-ClassPath: .,lib/commons-discovery-0.2.jar,lib/cxf-core-3.1.4.j
+ ar,lib/cxf-rt-bindings-soap-3.1.4.jar,lib/cxf-rt-databinding-jaxb-3.1
+ .4.jar,lib/cxf-rt-frontend-jaxws-3.1.4.jar,lib/cxf-rt-frontend-simple
+ -3.1.4.jar,lib/cxf-rt-transports-http-3.1.4.jar,lib/cxf-rt-ws-securit
+ y-3.1.4.jar,lib/cxf-rt-wsdl-3.1.4.jar,lib/jaxb-core-2.2.11.jar,lib/ja
+ xb-impl-2.2.11.jar,lib/neethi-3.0.3.jar,lib/stax2-api-3.1.1.jar,lib/w
+ oodstox-core-asl-4.4.1.jar,lib/xmlschema-core-2.2.1.jar,lib/mdm_webse
+ rvice_tomcat.jar
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

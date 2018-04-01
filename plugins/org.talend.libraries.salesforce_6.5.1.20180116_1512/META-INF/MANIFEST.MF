@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.salesforce;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.apache.axis,javax.xml.rpc
+ ,org.talend.libraries.apache.axis2;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Export-Package: com.salesforce.soap.partner,com.salesforce.soap.partne
+ r.fault,com.salesforce.soap.partner.sobject,com.sforce.soap.enterpris
+ e,com.sforce.soap.enterprise.fault,com.sforce.soap.enterprise.sobject
+ ,org.talend.salesforce,org.talend.salesforce.oauth
+Bundle-Name: Salesforce
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-ClassPath: .,lib/salesforce_enterprise.jar,lib/salesforceCRMMan
+ agement.jar,lib/salesforceOAuth.jar,lib/jetty-all-8.1.12.v20130726.ja
+ r,lib/servlet-api-3.0.jar,lib/json_simple-1.1.jar
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

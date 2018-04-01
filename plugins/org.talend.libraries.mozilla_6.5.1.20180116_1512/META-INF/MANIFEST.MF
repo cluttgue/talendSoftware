@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.mozilla;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Export-Package: com.netscape.sasl,com.netscape.sasl.mechanisms,netscap
+ e.ldap,netscape.ldap.ber.stream,netscape.ldap.client,netscape.ldap.cl
+ ient.opers,netscape.ldap.controls,netscape.ldap.factory,netscape.ldap
+ .util
+Bundle-Name: Mozilla
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-ClassPath: lib/ldapjdk.jar,.
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

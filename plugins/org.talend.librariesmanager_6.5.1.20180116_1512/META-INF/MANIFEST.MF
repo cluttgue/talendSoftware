@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.librariesmanager;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore.xmi,org
+ .eclipse.core.expressions,org.apache.commons.lang,org.eclipse.osgi.se
+ rvices,org.eclipse.m2e.core,org.ops4j.pax.url.mvn,org.talend.model,or
+ g.talend.libraries.apache,org.talend.libraries.dom4j-jaxen,org.talend
+ .libraries.apache.http,org.talend.core.runtime;visibility:=reexport,o
+ rg.talend.metadata.managment,org.apache.log4j,org.talend.designer.mav
+ en,org.talend.components.api,org.eclipse.m2e.maven.runtime
+Bundle-ManifestVersion: 2
+Bundle-Vendor: .Talend SA.
+Import-Package: org.eclipse.emf.ecore.xmi.impl,org.talend.osgi.hook.no
+ tification
+Eclipse-LazyStart: true
+Export-Package: org.talend.librariesmanager.emf.librariesindex,org.tal
+ end.librariesmanager.maven,org.talend.librariesmanager.model,org.tale
+ nd.librariesmanager.model.service,org.talend.librariesmanager.prefs,r
+ outines,routines.system
+Bundle-Name: Libraries Manager Plug-in
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.mondrian
+Bundle-Name: Mondrian
+Bundle-Version: 6.5.1.20180116_1512
+Archiver-Version: Plexus Archiver
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

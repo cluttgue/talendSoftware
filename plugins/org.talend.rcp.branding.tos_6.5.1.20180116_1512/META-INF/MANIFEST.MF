@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.rcp.branding.tos;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .ide,org.eclipse.ui.intro,org.talend.rcp,org.talend.core
+Bundle-ManifestVersion: 2
+Bundle-Vendor: .Talend SA.
+Eclipse-LazyStart: true
+Bundle-Name: TOS branding plug-in
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-Localization: plugin
+Bundle-Activator: org.talend.rcp.branding.tos.Activator
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

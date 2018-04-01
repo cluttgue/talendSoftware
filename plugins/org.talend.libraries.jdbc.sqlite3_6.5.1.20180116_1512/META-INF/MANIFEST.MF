@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.jdbc.sqlite3
+Archiver-Version: Plexus Archiver
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Export-Package: org.ibex.nestedvm,org.ibex.nestedvm.util,org.sqlite
+Bundle-Name: Sqlite3 Plug-in
+Bundle-Version: 6.5.1.20180116_1512
+Bundle-ClassPath: .,lib/sqlitejdbc-v056.jar
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+
